@@ -53,7 +53,7 @@
     ansible.builtin.pip:
       name:
       - PyMySQL
-      - crypytography
+      - Cryptography
       executable: pip3.9
 
   - name: import data into mysql
