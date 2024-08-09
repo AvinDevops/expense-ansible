@@ -43,3 +43,8 @@
     ansible.builtin.copy:
       src: backend.service
       dest: /etc/systemd/system/backend.service
+
+  - name: install mysql client
+    ansible.builtin.dnf:
+      name: mysql
+      state: installed
