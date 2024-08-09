@@ -1,7 +1,7 @@
 - name: db configuring
   hosts: db
   become: yes
-  # vars:
+  vars:
   #   login_host: 172.31.38.29
     root_password: ExpenseApp@1
   tasks:
